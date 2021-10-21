@@ -389,9 +389,6 @@
     <string name="im0801"> Yes </string>
     <string name="im0802"> No </string>
     <string name="im0803"> Dont Know </string>
-
-    <string name="Q_im2203"> im2203 </string>
-    <string name="im2203"> How many times has (name) polio drops been given during the national polio campaigns ? </string>
     <string name="im09">. Has (name) ever received a BCG vaccination against tuberculosis – that is, an injection in the arm or shoulder that usually causes a scar?</string>
     <string name="im0901">Yes </string>
     <string name="im0902">No  </string>
@@ -405,34 +402,34 @@
     <string name="im1102">No  </string>
     <string name="im1103">Dont know</string>
     <string name="im12">How many times were the polio drops received at Govt or Private Health Facility or from Govt Outreach services?  Number of times</string>
-    <string name="im1201">Number of times</string>
+    <string name="im12a">Number of times</string>
     <string name="im1298">Don\'t know</string>
 
-    <string name="Q_im2204"> im2204 </string>
-    <string name="im2204">The last time (name) received the polio drops, did (he/she) also get an injection to protect against polio?   Probe to ensure that both were given, drops and injection</string>
-    <string name="im2204a">Yes </string>
-    <string name="im2204b">No  </string>
-    <string name="im220498">Dont know</string>
     <string name="im14">Has (name) ever received a Pentavalent vaccination – that is, an injection in the thigh to prevent (him/her) from getting tetanus, whooping cough, diphtheria, Hepatitis B disease, and Haemophilus influenza type B?   Probe by indicating that Pentavalent vaccination is sometimes given at the same time as the Polio drops</string>
     <string name="im1401">Yes </string>
     <string name="im1402">No </string>
     <string name="im1403">Dont know</string>
+
     <string name="im15">How many times was the Pentavalent vaccine received? Number of times</string>
-    <string name="im1501">Number of times</string>
+    <string name="im15a">Number of times</string>
     <string name="im1598">Don\'t know</string>
+
     <string name="im16">Has (name) ever received a Pneumococcal Conjugate vaccination – that is, an injection to prevent (him/her) from getting pneumococcal disease, including ear infections and meningitis caused by pneumococcus? Probe by indicating that Pneumococcal Conjugate vaccination is sometimes given at the same time as the Pentavalent vaccination.</string>
     <string name="im1601">Yes </string>
     <string name="im1602">No  </string>
     <string name="im1603">Dont know</string>
+
     <string name="im17">How many times was the pneumococcal vaccine received? Number of times</string>
-    <string name="im1701">Number of times</string>
+    <string name="im17a">Number of times</string>
     <string name="im1798">Don\'t know</string>
+
     <string name="im18">Has (name) ever received drops for Rotavirus vaccine (RV) vaccination- A vaccine given orally soon after 6 weeks birth to protect against rotavirus infections, which are the leading cause of severe diarrhea among young children.</string>
     <string name="im1801">Yes </string>
     <string name="im1802">No  </string>
     <string name="im1803">Dont know</string>
+
     <string name="im19">How many times were the drops received? Number of times</string>
-    <string name="im1901">Number of times</string>
+    <string name="im19a">Number of times</string>
     <string name="im1998">Don\'t know</string>
     <string name="im20">Has (name) ever received an inactivated polio vaccine (IPV) – that is, a shot in the thigh at the age of 14 weeks or older - to prevent (him/her) from getting polio?</string>
     <string name="im2001">Yes </string>
@@ -442,38 +439,10 @@
     <string name="im2101">Yes </string>
     <string name="im2102">No  </string>
     <string name="im2103">Dont know</string>
+
     <string name="im22">How many times was a Measles Injection vaccine received? Number of times</string>
     <string name="im22a">Number of times</string>
     <string name="im2298">Don\'t know</string>
-
-    <string name="Q_im2201"> im2201 </string>
-    <string name="im2201"> Did (name) receive polio drops during the last campaign </string>
-    <string name="im2201a"> Yes </string>
-    <string name="im2201b"> No </string>
-    <string name="im220198"> Dont know </string>
-
-    <string name="Q_im2202"> im2201 </string>
-    <string name="im2202">How many times was Polio vaccine received during a large campaign? </string>
-    <string name="im2202a">Number of times</string>
-    <string name="im220298">Don\'t Know</string>
-
-    <string name="Q_im2205"> im2205 </string>
-    <string name="im2205"> Why did (name) not receive polio drops during the last campaign ?  Record all the reasons mentioned but do not prompt by asking specific. Encourage the mother to provide all reasons. </string>
-    <string name="im2205a"> Not at home when vaccinator came </string>
-    <string name="im2205b"> Time of immunization not convenient </string>
-    <string name="im2205c"> Family problem </string>
-    <string name="im2205d"> Child was ill </string>
-    <string name="im2205e"> Long wait </string>
-    <string name="im2205f"> Took child but no vaccine available </string>
-    <string name="im2205g"> Took child but no vaccinator </string>
-    <string name="im2205h"> COVID-19-related (fear of going out, sickness in family) </string>
-    <string name="im2205i"> No faith in immunization </string>
-    <string name="im2205j"> Fear of reaction </string>
-    <string name="im2205k"> Repeated campaigns </string>
-    <string name="im2205l"> Contents of vaccine not halal </string>
-    <string name="im2205m"> Vaccine leads to infertility </string>
-    <string name="im220598"> Don\’t know </string>
-    <string name="im220596"> Others </string>
 
     <string name="im23"> Where from (name) is usually vaccinated ?   If the child is vaccinated from multiple sources, mention the usual source with higher frequency of vaccine doses.</string>
     <string name="im2301"> Govt. Health facility </string>
@@ -518,6 +487,49 @@
     <string name="im2417">COVID-19-related (fear of going out, sickness in childInformation)</string>
     <string name="im2498">Don’t Know </string>
     <string name="im2496">Others Please Specify</string>
+
+    <string name="Q_im26"> im26 </string>
+    <string name="im26"> Did (name) receive polio drops during the last campaign </string>
+    <string name="im26a"> Yes </string>
+    <string name="im26b"> No </string>
+    <string name="im2698"> Dont know </string>
+
+    <string name="Q_im27"> im27 </string>
+    <string name="im27">How many times was Polio vaccine received during a large campaign? </string>
+    <string name="im27a">Number of times</string>
+    <string name="im2798">Don\'t Know</string>
+
+    <string name="Q_im28"> im28 </string>
+    <string name="im28"> How many times has (name) polio drops been given during the national polio campaigns ? </string>
+    <string name="im28a"> Yes </string>
+    <string name="im28b"> No </string>
+    <string name="im2898"> Dont know </string>
+
+    <string name="Q_im29"> im29 </string>
+    <string name="im29">The last time (name) received the polio drops, did (he/she) also get an injection to protect against polio?   Probe to ensure that both were given, drops and injection</string>
+    <string name="im29a">Yes </string>
+    <string name="im29b">No  </string>
+    <string name="im2998">Dont know</string>
+
+    <string name="Q_im30"> im39 </string>
+    <string name="im30"> Why did (name) not receive polio drops during the last campaign ?  Record all the reasons mentioned but do not prompt by asking specific. Encourage the mother to provide all reasons. </string>
+    <string name="im30a"> Not at home when vaccinator came </string>
+    <string name="im30b"> Time of immunization not convenient </string>
+    <string name="im30c"> Family problem </string>
+    <string name="im30d"> Child was ill </string>
+    <string name="im30e"> Long wait </string>
+    <string name="im30f"> Took child but no vaccine available </string>
+    <string name="im30g"> Took child but no vaccinator </string>
+    <string name="im30h"> COVID-19-related (fear of going out, sickness in family) </string>
+    <string name="im30i"> No faith in immunization </string>
+    <string name="im30j"> Fear of reaction </string>
+    <string name="im30k"> Repeated campaigns </string>
+    <string name="im30l"> Contents of vaccine not halal </string>
+    <string name="im30m"> Vaccine leads to infertility </string>
+    <string name="im3098"> Don\’t know </string>
+    <string name="im3096"> Others </string>
+
+
     <string name="pd_title1">Section PD: Care seeking during pregnancy and delivery  (To be administered to the mother of the youngest under-five child in the household)</string>
     <string name="pd01">Child’s Line Number (youngest under 5)</string>
     <string name="pd02">WRA’s Name</string>

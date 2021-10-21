@@ -2430,8 +2430,10 @@
                             </androidx.cardview.widget.CardView>
 
 
-                            <!-- im12  Radio   -->
-                            <androidx.cardview.widget.CardView style="@style/cardView">
+                            <!-- im12 EditTextPicker-CheckBox -->
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/fldGrpim12"
+                                style="@style/cardView">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -2457,47 +2459,43 @@
 
                                     </LinearLayout>
 
-                                    <RadioGroup
-                                        android:id="@+id/im12"
+                                    <LinearLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:orientation="horizontal">
 
-                                        <RadioButton
-                                            android:id="@+id/im1201"
-                                            android:layout_width="0dp"
+                                        <TextView
+                                            android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:text="@string/im1201" />
+                                            android:text="@string/im12a" />
 
-                                        <RadioButton
-                                            android:id="@+id/im1298"
+                                        <com.edittextpicker.aliazaz.EditTextPicker
+                                            android:id="@+id/im12"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
+                                            android:enabled="@{im1298.checked ? false : true}"
+                                            android:gravity="center"
+                                            android:hint="##"
+                                            android:inputType="number"
+                                            android:maxLength="2"
+                                            android:text="@{im1298.checked ? `` : im1298.getText().toString()}"
+                                            app:maxValue="35"
+                                            app:minValue="1"
+                                            app:type="range" />
+
+                                        <CheckBox
+                                            android:id="@+id/im1298"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:tag="-1"
                                             android:text="@string/im1298" />
 
-                                    </RadioGroup>
-
-                                    <com.edittextpicker.aliazaz.EditTextPicker
-                                        android:id="@+id/im1201x"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:gravity="center"
-                                        android:hint="@string/im1201"
-                                        android:inputType="number"
-                                        android:maxLength="2"
-                                        android:tag="im1201"
-                                        android:text='@{im1201.checked ? im1201x.getText().toString() : ""}'
-                                        android:visibility='@{im1201.checked ? View.VISIBLE : View.GONE}'
-                                        app:maxValue="35"
-                                        app:minValue="1"
-                                        app:type="range" />
+                                    </LinearLayout>
 
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-
 
                         </LinearLayout>
 
@@ -2563,7 +2561,7 @@
                         </androidx.cardview.widget.CardView>
 
 
-                        <!-- im15  Input-Numeric   -->
+                        <!-- im15  EditTextPicker-CheckBox   -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/fldGrpim15"
                             style="@style/cardView"
@@ -2593,42 +2591,39 @@
 
                                 </LinearLayout>
 
-                                <RadioGroup
-                                    android:id="@+id/im15"
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal">
 
-                                    <RadioButton
-                                        android:id="@+id/im15a"
-                                        android:layout_width="0dp"
+                                    <TextView
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:text="@string/im1501" />
+                                        android:text="@string/im15a" />
 
-                                    <RadioButton
-                                        android:id="@+id/im1598"
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/im15"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:enabled="@{im1598.checked ? false : true}"
+                                        android:gravity="center"
+                                        android:hint="#"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:text="@{im1598.checked ? `` : im1598.getText().toString()}"
+                                        app:maxValue="9"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                    <CheckBox
+                                        android:id="@+id/im1598"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:tag="-1"
                                         android:text="@string/im1598" />
 
-                                </RadioGroup>
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/im1501"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:hint="#"
-                                    android:inputType="number"
-                                    android:maxLength="1"
-                                    android:tag="im15a"
-                                    android:text='@{im15a.checked ? im1501.getText().toString() : ""}'
-                                    android:visibility='@{im15a.checked ? View.VISIBLE : View.GONE}'
-                                    app:maxValue="9"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -2696,11 +2691,11 @@
                         </androidx.cardview.widget.CardView>
 
 
-                        <!-- im17  Input-Numeric   -->
+                        <!-- im17  EditTextPicker-CheckBox   -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/fldGrpim17"
                             style="@style/cardView"
-                            android:visibility='@{im1601.checked? View.VISIBLE : View.GONE}'>
+                            android:visibility='@{im1601.checked ? View.VISIBLE : View.GONE}'>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -2726,41 +2721,39 @@
 
                                 </LinearLayout>
 
-                                <RadioGroup
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal">
 
-                                    <RadioButton
-                                        android:id="@+id/im17a"
-                                        android:layout_width="0dp"
+                                    <TextView
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:text="@string/im1701" />
+                                        android:text="@string/im17a" />
 
-                                    <RadioButton
-                                        android:id="@+id/im1798"
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/im17"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:enabled="@{im1798.checked ? false : true}"
+                                        android:gravity="center"
+                                        android:hint="#"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:text="@{im1798.checked ? `` : im1798.getText().toString()}"
+                                        app:maxValue="9"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                    <CheckBox
+                                        android:id="@+id/im1798"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:tag="-1"
                                         android:text="@string/im1798" />
 
-                                </RadioGroup>
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/im1701"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:hint="#"
-                                    android:inputType="number"
-                                    android:maxLength="1"
-                                    android:tag="im17a"
-                                    android:text='@{im17a.checked ? im1701.getText().toString() : ""}'
-                                    android:visibility='@{im17a.checked ? View.VISIBLE : View.GONE}'
-                                    app:maxValue="9"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -2828,7 +2821,7 @@
                         </androidx.cardview.widget.CardView>
 
 
-                        <!-- im19  Input-Numeric -->
+                        <!-- im19  EditTextPicker-CheckBox   -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/fldGrpim19"
                             style="@style/cardView"
@@ -2858,42 +2851,39 @@
 
                                 </LinearLayout>
 
-                                <RadioGroup
-                                    android:id="@+id/im19"
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal">
 
-                                    <RadioButton
-                                        android:id="@+id/im1901"
-                                        android:layout_width="0dp"
+                                    <TextView
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:text="@string/im1901" />
+                                        android:text="@string/im19a" />
 
-                                    <RadioButton
-                                        android:id="@+id/im1998"
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/im19"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:enabled="@{im1998.checked ? false : true}"
+                                        android:gravity="center"
+                                        android:hint="#"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:text="@{im1998.checked ? `` : im1998.getText().toString()}"
+                                        app:maxValue="9"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                    <CheckBox
+                                        android:id="@+id/im1998"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:tag="-1"
                                         android:text="@string/im1998" />
 
-                                </RadioGroup>
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/im1901x"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:hint="#"
-                                    android:inputType="number"
-                                    android:maxLength="1"
-                                    android:tag="im1901"
-                                    android:text='@{im1901.checked ? im1901x.getText().toString() : ""}'
-                                    android:visibility='@{im1901.checked ? View.VISIBLE : View.GONE}'
-                                    app:maxValue="9"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -3022,7 +3012,7 @@
                         </androidx.cardview.widget.CardView>
 
 
-                        <!-- im22  Input-Numeric -->
+                        <!-- im22  EditTextPicker-CheckBox   -->
                         <androidx.cardview.widget.CardView
                             android:id="@+id/fldGrpim22"
                             style="@style/cardView"
@@ -3052,42 +3042,39 @@
 
                                 </LinearLayout>
 
-                                <RadioGroup
-                                    android:id="@+id/im22"
+                                <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal">
 
-                                    <RadioButton
-                                        android:id="@+id/im22a"
-                                        android:layout_width="0dp"
+                                    <TextView
+                                        android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_weight="1"
-                                        android:text="@string/im2201" />
+                                        android:text="@string/im22a" />
 
-                                    <RadioButton
-                                        android:id="@+id/im2298"
+                                    <com.edittextpicker.aliazaz.EditTextPicker
+                                        android:id="@+id/im22"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:enabled="@{im2298.checked ? false : true}"
+                                        android:gravity="center"
+                                        android:hint="#"
+                                        android:inputType="number"
+                                        android:maxLength="1"
+                                        android:text="@{im2298.checked ? `` : im2298.getText().toString()}"
+                                        app:maxValue="9"
+                                        app:minValue="1"
+                                        app:type="range" />
+
+                                    <CheckBox
+                                        android:id="@+id/im2298"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:tag="-1"
                                         android:text="@string/im2298" />
 
-                                </RadioGroup>
-
-                                <com.edittextpicker.aliazaz.EditTextPicker
-                                    android:id="@+id/im2201"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:hint="#"
-                                    android:inputType="number"
-                                    android:maxLength="1"
-                                    android:tag="im22a"
-                                    android:text='@{im22a.checked ? im2201.getText().toString() : ""}'
-                                    android:visibility='@{im22a.checked ? View.VISIBLE : View.GONE}'
-                                    app:maxValue="9"
-                                    app:minValue="1"
-                                    app:type="range" />
+                                </LinearLayout>
 
                             </LinearLayout>
 
@@ -3103,9 +3090,9 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- im22a  Radio   -->
+                        <!-- im26  Radio   -->
                         <androidx.cardview.widget.CardView
-                            android:id="@+id/fldGrpCVim22a"
+                            android:id="@+id/fldGrpCVim26"
                             style="@style/cardView">
 
                             <LinearLayout
@@ -3123,42 +3110,41 @@
                                         style="@style/quesNum"
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
-                                        android:text="@string/Q_im2201" />
+                                        android:text="@string/Q_im26" />
 
                                     <TextView
-                                        android:layout_width="0dp"
+                                        android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:layout_weight="1"
-                                        android:text="@string/im2201" />
+                                        android:text="@string/im26" />
 
                                 </LinearLayout>
 
                                 <RadioGroup
-                                    android:id="@+id/im22a"
+                                    android:id="@+id/im26"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="horizontal">
 
                                     <RadioButton
-                                        android:id="@+id/im22aa"
+                                        android:id="@+id/im26a"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
-                                        android:text="@string/im2201a" />
+                                        android:text="@string/im26a" />
 
                                     <RadioButton
-                                        android:id="@+id/im22ab"
+                                        android:id="@+id/im26b"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
-                                        android:text="@string/im2201b" />
+                                        android:text="@string/im26b" />
 
                                     <RadioButton
-                                        android:id="@+id/im22a98"
+                                        android:id="@+id/im2698"
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
-                                        android:text="@string/im220198" />
+                                        android:text="@string/im2698" />
 
                                 </RadioGroup>
 
@@ -3172,11 +3158,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
-                            android:visibility="@{im22aa.checked ? View.VISIBLE : View.GONE}">
+                            android:visibility="@{im26a.checked ? View.VISIBLE : View.GONE}">
 
-                            <!-- im22b  Radio   -->
+
+                            <!-- im27  EditTextPicker-CheckBox   -->
                             <androidx.cardview.widget.CardView
-                                android:id="@+id/fldGrpCVim22b"
+                                android:id="@+id/fldGrpim27"
                                 style="@style/cardView">
 
                                 <LinearLayout
@@ -3194,58 +3181,55 @@
                                             style="@style/quesNum"
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
-                                            android:text="@string/Q_im2202" />
+                                            android:text="@string/Q_im27" />
 
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="@string/im2202" />
+                                            android:text="@string/im27" />
 
                                     </LinearLayout>
 
-                                    <RadioGroup
-                                        android:id="@+id/im22b"
+                                    <LinearLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:orientation="horizontal">
 
-                                        <RadioButton
-                                            android:id="@+id/im22b1"
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/im27a" />
+
+                                        <com.edittextpicker.aliazaz.EditTextPicker
+                                            android:id="@+id/im27"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im2202a" />
+                                            android:enabled="@{im2798.checked ? false : true}"
+                                            android:gravity="center"
+                                            android:hint="#"
+                                            android:inputType="number"
+                                            android:maxLength="1"
+                                            android:text="@{im2798.checked ? `` : im2798.getText().toString()}"
+                                            app:maxValue="9"
+                                            app:minValue="1"
+                                            app:type="range" />
 
-                                        <RadioButton
-                                            android:id="@+id/im22b98"
-                                            android:layout_width="0dp"
+                                        <CheckBox
+                                            android:id="@+id/im2798"
+                                            android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:text="@string/im220298" />
+                                            android:tag="-1"
+                                            android:text="@string/im2798" />
 
-                                    </RadioGroup>
-
-                                    <com.edittextpicker.aliazaz.EditTextPicker
-                                        android:id="@+id/im22b1x"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:gravity="center"
-                                        android:hint="#"
-                                        android:inputType="number"
-                                        android:maxLength="2"
-                                        android:tag="im22b1"
-                                        android:text='@{im22b1.checked ? im1201x.getText().toString() : ""}'
-                                        android:visibility='@{im22b1.checked ? View.VISIBLE : View.GONE}'
-                                        app:maxValue="35"
-                                        app:minValue="1"
-                                        app:type="range" />
+                                    </LinearLayout>
 
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
 
-                            <!-- im08b  Input-Numeric   -->
+                            <!-- im28 Radio  -->
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/fldGrpCVim08b"
                                 style="@style/cardView">
@@ -3265,54 +3249,41 @@
                                             style="@style/quesNum"
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
-                                            android:text="@string/Q_im08b" />
+                                            android:text="@string/Q_im28" />
 
                                         <TextView
-                                            android:layout_width="0dp"
+                                            android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:layout_weight="1"
-                                            android:text="@string/im2203" />
+                                            android:text="@string/im28" />
 
                                     </LinearLayout>
 
-                                    <!--<com.edittextpicker.aliazaz.EditTextPicker
-                                        android:id="@+id/im08b"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:hint="@string/im08b"
-                                        android:inputType="number"
-                                        android:maxLength="2"
-                                        android:text='@{im08a1.checked ? im08b.getText().toString() : ""}'
-                                        app:maxValue="35"
-                                        app:minValue="1"
-                                        app:type="range" />-->
-
                                     <RadioGroup
-                                        android:id="@+id/im08b"
+                                        android:id="@+id/im28"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:orientation="horizontal">
 
                                         <RadioButton
-                                            android:id="@+id/im08b1"
+                                            android:id="@+id/im28a"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im08a1" />
+                                            android:text="@string/im28a" />
 
                                         <RadioButton
-                                            android:id="@+id/im08b2"
+                                            android:id="@+id/im28b"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im08a2" />
+                                            android:text="@string/im28b" />
 
                                         <RadioButton
-                                            android:id="@+id/im08b98"
+                                            android:id="@+id/im2898"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im08a3" />
+                                            android:text="@string/im2898" />
 
                                     </RadioGroup>
 
@@ -3321,9 +3292,9 @@
                             </androidx.cardview.widget.CardView>
 
 
-                            <!-- im13  Radio   -->
+                            <!-- im29  Radio   -->
                             <androidx.cardview.widget.CardView
-                                android:id="@+id/fldGrpCVim13"
+                                android:id="@+id/fldGrpCVim29"
                                 style="@style/cardView">
 
                                 <LinearLayout
@@ -3341,41 +3312,41 @@
                                             style="@style/quesNum"
                                             android:layout_width="wrap_content"
                                             android:layout_height="match_parent"
-                                            android:text="@string/Q_im13" />
+                                            android:text="@string/Q_im29" />
 
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="@string/im2204" />
+                                            android:text="@string/im29" />
 
                                     </LinearLayout>
 
                                     <RadioGroup
-                                        android:id="@+id/im13"
+                                        android:id="@+id/im29"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:orientation="horizontal">
 
                                         <RadioButton
-                                            android:id="@+id/im1301"
+                                            android:id="@+id/im29a"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im2204a" />
+                                            android:text="@string/im29a" />
 
                                         <RadioButton
-                                            android:id="@+id/im1302"
+                                            android:id="@+id/im29b"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im2204b" />
+                                            android:text="@string/im29b" />
 
                                         <RadioButton
-                                            android:id="@+id/im1303"
+                                            android:id="@+id/im2998"
                                             android:layout_width="0dp"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"
-                                            android:text="@string/im220498" />
+                                            android:text="@string/im2998" />
 
                                     </RadioGroup>
 
@@ -3386,9 +3357,9 @@
                         </LinearLayout>
 
 
-                        <!-- im22e  CheckBox   -->
+                        <!-- im30  CheckBox   -->
                         <androidx.cardview.widget.CardView
-                            android:id="@+id/fldGrpCVim22e"
+                            android:id="@+id/fldGrpCVim30"
                             style="@style/cardView">
 
                             <LinearLayout
@@ -3406,124 +3377,124 @@
                                         style="@style/quesNum"
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
-                                        android:text="@string/Q_im2205" />
+                                        android:text="@string/Q_im30" />
 
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:text="@string/im2205" />
+                                        android:text="@string/im30" />
 
                                 </LinearLayout>
 
                                 <LinearLayout
-                                    android:id="@+id/im22echeck"
+                                    android:id="@+id/im30check"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:orientation="vertical"
                                     android:tag="0">
 
                                     <CheckBox
-                                        android:id="@+id/im22e01"
+                                        android:id="@+id/im30a"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205a" />
+                                        android:text="@string/im30a" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e02"
+                                        android:id="@+id/im30b"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205b" />
+                                        android:text="@string/im30b" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e03"
+                                        android:id="@+id/im30c"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205c" />
+                                        android:text="@string/im30c" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e04"
+                                        android:id="@+id/im30d"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205d" />
+                                        android:text="@string/im30d" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e05"
+                                        android:id="@+id/im30e"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205e" />
+                                        android:text="@string/im30e" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e06"
+                                        android:id="@+id/im30f"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205f" />
+                                        android:text="@string/im30f" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e07"
+                                        android:id="@+id/im30g"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205g" />
+                                        android:text="@string/im30g" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e08"
+                                        android:id="@+id/im30h"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205h" />
+                                        android:text="@string/im30h" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e09"
+                                        android:id="@+id/im30i"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205i" />
+                                        android:text="@string/im30i" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e10"
+                                        android:id="@+id/im30j"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205j" />
+                                        android:text="@string/im30j" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e11"
+                                        android:id="@+id/im30k"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205k" />
+                                        android:text="@string/im30k" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e12"
+                                        android:id="@+id/im30l"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205l" />
+                                        android:text="@string/im30l" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e13"
+                                        android:id="@+id/im30m"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im2205m" />
+                                        android:text="@string/im30m" />
 
                                     <CheckBox
-                                        android:id="@+id/im22e96"
+                                        android:id="@+id/im3096"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:text="@string/im220596" />
+                                        android:text="@string/im3096" />
 
                                     <EditText
-                                        android:id="@+id/im22e96x"
+                                        android:id="@+id/im3096x"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:digits="AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789,. "
-                                        android:hint="@string/im220596"
-                                        android:tag="im22e96"
-                                        android:text="@{im22e96.checked ? im22e96x.getText().toString() : ``}"
-                                        android:visibility="@{im22e96.checked ? View.VISIBLE : View.GONE}" />
+                                        android:hint="@string/im3096"
+                                        android:tag="im3096"
+                                        android:text="@{im3096.checked ? im3096x.getText().toString() : ``}"
+                                        android:visibility="@{im3096.checked ? View.VISIBLE : View.GONE}" />
 
                                 </LinearLayout>
 
                                 <CheckBox
-                                    android:id="@+id/im22e98"
+                                    android:id="@+id/im3098"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:tag="-1"
-                                    android:text="@string/im220598" />
+                                    android:text="@string/im3098" />
 
                             </LinearLayout>
 

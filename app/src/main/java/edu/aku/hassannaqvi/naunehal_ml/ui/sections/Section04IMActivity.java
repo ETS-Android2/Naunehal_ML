@@ -182,18 +182,6 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 : bi.im0803.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm08a(bi.im22aa.isChecked() ? "1"
-                : bi.im22ab.isChecked() ? "2"
-                : bi.im08a3.isChecked() ? "98"
-                : "-1");
-
-//        MainApp.immunization.setIm08b(bi.im08b.getText().toString());
-        //Its IM22C saved as IM08B @instructedByChaudarySahab
-        MainApp.immunization.setIm08b(bi.im08b1.isChecked() ? "1"
-                : bi.im08b2.isChecked() ? "2"
-                : bi.im08b98.isChecked() ? "98"
-                : "-1");
-
         MainApp.immunization.setIm09(bi.im0901.isChecked() ? "1"
                 : bi.im0902.isChecked() ? "2"
                 : bi.im0903.isChecked() ? "98"
@@ -209,57 +197,32 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 : bi.im1103.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm12(bi.im1201.isChecked() ? "1"
-                : bi.im1298.isChecked() ? "98"
-                : "-1");
-
-        MainApp.immunization.setIm1201x(bi.im1201x.getText().toString().isEmpty() ? "-1" : bi.im1201x.getText().toString());
-
-
-        //Its IM22B saved as IM12A @instructedByChaudarySahab
-        MainApp.immunization.setIm12a(bi.im12a1.isChecked() ? "1"
-                : bi.im12a98.isChecked() ? "98"
-                : "-1");
-
-        MainApp.immunization.setIm12a1x(bi.im12a1x.getText().toString().isEmpty() ? "-1" : bi.im12a1x.getText().toString());
-
-
-        //Its IM22D saved as IM13 @instructedByChaudarySahab
-        MainApp.immunization.setIm13(bi.im1301.isChecked() ? "1"
-                : bi.im1302.isChecked() ? "2"
-                : bi.im1303.isChecked() ? "98"
-                : "-1");
+        MainApp.immunization.setIm12(bi.im12.getText().toString().isEmpty() ? "-1" : bi.im12.getText().toString());
+        MainApp.immunization.setIm1298(bi.im1298.isChecked() ? "98" : "-1");
 
         MainApp.immunization.setIm14(bi.im1401.isChecked() ? "1"
                 : bi.im1402.isChecked() ? "2"
                 : bi.im1403.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm15(bi.im15a.isChecked() ? "1"
-                : bi.im1598.isChecked() ? "98"
-                : "-1");
-        MainApp.immunization.setIm1501(bi.im1501.getText().toString().isEmpty() ? "-1" : bi.im1501.getText().toString());
+        MainApp.immunization.setIm15(bi.im15.getText().toString().isEmpty() ? "-1" : bi.im15.getText().toString());
+        MainApp.immunization.setIm1598(bi.im1598.isChecked() ? "98" : "-1");
 
         MainApp.immunization.setIm16(bi.im1601.isChecked() ? "1"
                 : bi.im1602.isChecked() ? "2"
                 : bi.im1603.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm17(bi.im17a.isChecked() ? "1"
-                : bi.im1798.isChecked() ? "98"
-                : "-1");
-
-        MainApp.immunization.setIm1701(bi.im1701.getText().toString().isEmpty() ? "-1" : bi.im1701.getText().toString());
+        MainApp.immunization.setIm17(bi.im17.getText().toString().isEmpty() ? "-1" : bi.im17.getText().toString());
+        MainApp.immunization.setIm1798(bi.im1798.isChecked() ? "98" : "-1");
 
         MainApp.immunization.setIm18(bi.im1801.isChecked() ? "1"
                 : bi.im1802.isChecked() ? "2"
                 : bi.im1803.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm19(bi.im1901.isChecked() ? "1"
-                : bi.im1998.isChecked() ? "98"
-                : "-1");
-        MainApp.immunization.setIm1901x(bi.im1901x.getText().toString().isEmpty() ? "-1" : bi.im1901x.getText().toString());
+        MainApp.immunization.setIm19(bi.im19.getText().toString().isEmpty() ? "-1" : bi.im19.getText().toString());
+        MainApp.immunization.setIm1998(bi.im1998.isChecked() ? "98" : "-1");
 
         MainApp.immunization.setIm20(bi.im2001.isChecked() ? "1"
                 : bi.im2002.isChecked() ? "2"
@@ -271,27 +234,8 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 : bi.im2103.isChecked() ? "98"
                 : "-1");
 
-        MainApp.immunization.setIm22(bi.im22a.isChecked() ? "1"
-                : bi.im2298.isChecked() ? "98"
-                : "-1");
-        MainApp.immunization.setIm2201(bi.im2201.getText().toString().isEmpty() ? "-1" : bi.im2201.getText().toString());
-
-        MainApp.immunization.setIm22e01(bi.im22e01.isChecked() ? "1" : "-1");
-        MainApp.immunization.setIm22e02(bi.im22e02.isChecked() ? "2" : "-1");
-        MainApp.immunization.setIm22e03(bi.im22e03.isChecked() ? "3" : "-1");
-        MainApp.immunization.setIm22e04(bi.im22e04.isChecked() ? "4" : "-1");
-        MainApp.immunization.setIm22e05(bi.im22e05.isChecked() ? "5" : "-1");
-        MainApp.immunization.setIm22e06(bi.im22e06.isChecked() ? "6" : "-1");
-        MainApp.immunization.setIm22e07(bi.im22e07.isChecked() ? "7" : "-1");
-        MainApp.immunization.setIm22e08(bi.im22e08.isChecked() ? "8" : "-1");
-        MainApp.immunization.setIm22e09(bi.im22e09.isChecked() ? "9" : "-1");
-        MainApp.immunization.setIm22e10(bi.im22e10.isChecked() ? "10" : "-1");
-        MainApp.immunization.setIm22e11(bi.im22e11.isChecked() ? "11" : "-1");
-        MainApp.immunization.setIm22e12(bi.im22e12.isChecked() ? "12" : "-1");
-        MainApp.immunization.setIm22e13(bi.im22e13.isChecked() ? "13" : "-1");
-        MainApp.immunization.setIm22e98(bi.im22e98.isChecked() ? "98" : "-1");
-        MainApp.immunization.setIm22e96(bi.im22e96.isChecked() ? "96" : "-1");
-        MainApp.immunization.setIm22e96x(bi.im22e96x.getText().toString().isEmpty() ? "-1" : bi.im22e96x.getText().toString());
+        MainApp.immunization.setIm22(bi.im22.getText().toString().isEmpty() ? "-1" : bi.im22.getText().toString());
+        MainApp.immunization.setIm2298(bi.im2298.isChecked() ? "98" : "-1");
 
         MainApp.immunization.setIm23(bi.im2301.isChecked() ? "1"
                 : bi.im2302.isChecked() ? "2"
@@ -340,6 +284,41 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 : bi.im2503.isChecked() ? "3"
                 : bi.im2504.isChecked() ? "4"
                 : "-1");
+
+        MainApp.immunization.setIm26(bi.im26a.isChecked() ? "1"
+                : bi.im26b.isChecked() ? "2"
+                : bi.im2698.isChecked() ? "98"
+                : "-1");
+
+        MainApp.immunization.setIm27(bi.im27.getText().toString().isEmpty() ? "-1" : bi.im27.getText().toString());
+        MainApp.immunization.setIm2798(bi.im2798.isChecked() ? "98" : "-1");
+
+        MainApp.immunization.setIm28(bi.im28a.isChecked() ? "1"
+                : bi.im28b.isChecked() ? "2"
+                : bi.im2898.isChecked() ? "98"
+                : "-1");
+
+        MainApp.immunization.setIm29(bi.im29a.isChecked() ? "1"
+                : bi.im29b.isChecked() ? "2"
+                : bi.im2998.isChecked() ? "98"
+                : "-1");
+
+        MainApp.immunization.setIm30a(bi.im30a.isChecked() ? "1" : "-1");
+        MainApp.immunization.setIm30b(bi.im30b.isChecked() ? "2" : "-1");
+        MainApp.immunization.setIm30c(bi.im30c.isChecked() ? "3" : "-1");
+        MainApp.immunization.setIm30d(bi.im30d.isChecked() ? "4" : "-1");
+        MainApp.immunization.setIm30e(bi.im30e.isChecked() ? "5" : "-1");
+        MainApp.immunization.setIm30f(bi.im30f.isChecked() ? "6" : "-1");
+        MainApp.immunization.setIm30g(bi.im30g.isChecked() ? "7" : "-1");
+        MainApp.immunization.setIm30h(bi.im30h.isChecked() ? "8" : "-1");
+        MainApp.immunization.setIm30i(bi.im30i.isChecked() ? "9" : "-1");
+        MainApp.immunization.setIm30j(bi.im30j.isChecked() ? "10" : "-1");
+        MainApp.immunization.setIm30k(bi.im30k.isChecked() ? "11" : "-1");
+        MainApp.immunization.setIm30l(bi.im30l.isChecked() ? "12" : "-1");
+        MainApp.immunization.setIm30m(bi.im30m.isChecked() ? "13" : "-1");
+        MainApp.immunization.setIm3098(bi.im3098.isChecked() ? "98" : "-1");
+        MainApp.immunization.setIm3096(bi.im3096.isChecked() ? "96" : "-1");
+        MainApp.immunization.setIm3096x(bi.im3096x.getText().toString().isEmpty() ? "-1" : bi.im3096x.getText().toString());
 
 
     }
@@ -513,31 +492,31 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
             }
         });
 
-        bi.im08a.setOnCheckedChangeListener((radioGroup, i) -> {
+        bi.im26.setOnCheckedChangeListener((radioGroup, i) -> {
             Clear.clearAllFields(bi.fldGrpIm8a);
-            Clear.clearAllFields(bi.fldGrpCVim22e);
+            Clear.clearAllFields(bi.fldGrpCVim30);
             bi.fldGrpIm8a.setVisibility(View.GONE);
-            bi.fldGrpCVim22e.setVisibility(View.GONE);
-            if (i == bi.im08a1.getId()) {
+            bi.fldGrpCVim30.setVisibility(View.GONE);
+            if (i == bi.im26a.getId()) {
                 bi.fldGrpIm8a.setVisibility(View.VISIBLE);
             } else {
-                bi.fldGrpCVim22e.setVisibility(View.VISIBLE);
+                bi.fldGrpCVim30.setVisibility(View.VISIBLE);
             }
         });
 
-        bi.im08b.setOnCheckedChangeListener((radioGroup, i) -> {
-            Clear.clearAllFields(bi.fldGrpCVim13);
-            Clear.clearAllFields(bi.fldGrpCVim22e);
-            bi.fldGrpCVim13.setVisibility(View.GONE);
-            bi.fldGrpCVim22e.setVisibility(View.GONE);
-            if (i == bi.im08b1.getId()) {
-                bi.fldGrpCVim13.setVisibility(View.VISIBLE);
+        bi.im28.setOnCheckedChangeListener((radioGroup, i) -> {
+            Clear.clearAllFields(bi.fldGrpCVim29);
+            Clear.clearAllFields(bi.fldGrpCVim30);
+            bi.fldGrpCVim29.setVisibility(View.GONE);
+            bi.fldGrpCVim30.setVisibility(View.GONE);
+            if (i == bi.im28a.getId()) {
+                bi.fldGrpCVim29.setVisibility(View.VISIBLE);
             } else {
-                bi.fldGrpCVim22e.setVisibility(View.VISIBLE);
+                bi.fldGrpCVim30.setVisibility(View.VISIBLE);
             }
         });
 
-        bi.im22e98.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im22echeck, !b));
+        bi.im3098.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im30check, !b));
 
     }
 
