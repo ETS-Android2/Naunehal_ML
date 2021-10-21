@@ -359,7 +359,7 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 Clear.clearAllFields(bi.fldGrpim0802);
                 bi.fldGrpim0802.setVisibility(View.GONE);
                 bi.llim01.setVisibility(View.VISIBLE);
-                bi.fldGrpIm23.setVisibility(View.VISIBLE);
+                //bi.fldGrpIm23.setVisibility(View.VISIBLE);
 
 
                 bi.im04dd.setEnabled(true);
@@ -459,13 +459,13 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 bi.fldGrpim0802.setVisibility(View.VISIBLE);
                 bi.fldGrpIm24.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpIm24);
-                bi.fldGrpIm23.setVisibility(View.VISIBLE);
+                //bi.fldGrpIm23.setVisibility(View.VISIBLE);
             } else if (i == bi.im0802.getId() || i == bi.im0803.getId()) {
                 bi.fldGrpim0802.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpim0802);
                 bi.fldGrpIm24.setVisibility(View.VISIBLE);
-                bi.fldGrpIm23.setVisibility(View.GONE);
-                Clear.clearAllFields(bi.fldGrpIm23);
+                //bi.fldGrpIm23.setVisibility(View.GONE);
+                //Clear.clearAllFields(bi.fldGrpIm23);
             }
         });
 
