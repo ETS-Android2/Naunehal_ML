@@ -234,11 +234,10 @@ public class Section05PDActivity extends AppCompatActivity implements EndSection
 
         form.setPd06961x(bi.pd06961x.getText().toString());
         form.setPd06962x(bi.pd06962x.getText().toString());
-        form.setPd07(bi.pd0701.isChecked() ? "0"
-                : bi.pd0798.isChecked() ? "98"
-                : "-1");
 
-        form.setPd0701x(bi.pd0701x.getText().toString());
+        form.setPd07(bi.pd0798.isChecked() ? "98" : "-1");
+        form.setPd0701x(bi.pd0701x.getText().toString().trim().isEmpty() ? "-1" : bi.pd0701x.getText().toString());
+
         form.setPd08(bi.pd0801.isChecked() ? "1"
                 : bi.pd0802.isChecked() ? "2"
                 : bi.pd0803.isChecked() ? "3"

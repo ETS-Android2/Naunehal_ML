@@ -251,9 +251,10 @@
                         </LinearLayout>
 
                         <TextView
-                            style="@style/sub_labels"
+                            style="@style/info"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@string/pd04hint" />
 
                         <RadioGroup
@@ -601,37 +602,38 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/pd07info" />
 
-                            <RadioGroup
-                                android:id="@+id/pd07"
+                            <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content">
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
 
-                                <RadioButton
-                                    android:id="@+id/pd0701"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
                                     android:text="@string/pd0701" />
 
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/pd0701x"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:hint="@string/pd0701"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:enabled="@{pd0798.checked ? false : true}"
+                                    android:gravity="center"
                                     android:inputType="number"
-                                    android:tag="pd0701"
-                                    android:text='@{pd0701.checked ? pd0701x.getText().toString() : "" }'
-                                    android:visibility='@{pd0701.checked ? View.VISIBLE : View.GONE}'
+                                    android:hint="##"
+                                    android:text="@{pd0798.checked ? `` : pd0701x.getText().toString()}"
                                     app:maxValue="20"
                                     app:minValue="1"
                                     app:type="range" />
 
-                                <RadioButton
+                                <CheckBox
                                     android:id="@+id/pd0798"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:tag="-1"
                                     android:text="@string/pd0798" />
 
-                            </RadioGroup>
+                            </LinearLayout>
 
                         </LinearLayout>
 
@@ -1674,7 +1676,6 @@
                                 android:layout_weight="1"
                                 android:text="@string/pd1701" />
 
-
                             <RadioButton
                                 android:id="@+id/pd1702"
                                 android:layout_width="0dp"
@@ -1682,14 +1683,12 @@
                                 android:layout_weight="1"
                                 android:text="@string/pd1702" />
 
-
                             <RadioButton
                                 android:id="@+id/pd1703"
                                 android:layout_width="0dp"
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:text="@string/pd1703" />
-
 
                             <RadioButton
                                 android:id="@+id/pd1798"
@@ -1699,7 +1698,6 @@
                                 android:text="@string/pd1798" />
 
                         </RadioGroup>
-
 
                         <com.edittextpicker.aliazaz.EditTextPicker
                             android:id="@+id/pd1701x"
