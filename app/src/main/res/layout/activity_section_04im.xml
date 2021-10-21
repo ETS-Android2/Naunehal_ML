@@ -2479,7 +2479,7 @@
                                             android:hint="##"
                                             android:inputType="number"
                                             android:maxLength="2"
-                                            android:text="@{im1298.checked ? `` : im1298.getText().toString()}"
+                                            android:text="@{im1298.checked ? `` : im12.getText().toString()}"
                                             app:maxValue="35"
                                             app:minValue="1"
                                             app:type="range" />
@@ -2611,7 +2611,7 @@
                                         android:hint="#"
                                         android:inputType="number"
                                         android:maxLength="1"
-                                        android:text="@{im1598.checked ? `` : im1598.getText().toString()}"
+                                        android:text="@{im1598.checked ? `` : im15.getText().toString()}"
                                         app:maxValue="9"
                                         app:minValue="1"
                                         app:type="range" />
@@ -2741,7 +2741,7 @@
                                         android:hint="#"
                                         android:inputType="number"
                                         android:maxLength="1"
-                                        android:text="@{im1798.checked ? `` : im1798.getText().toString()}"
+                                        android:text="@{im1798.checked ? `` : im17.getText().toString()}"
                                         app:maxValue="9"
                                         app:minValue="1"
                                         app:type="range" />
@@ -2871,7 +2871,7 @@
                                         android:hint="#"
                                         android:inputType="number"
                                         android:maxLength="1"
-                                        android:text="@{im1998.checked ? `` : im1998.getText().toString()}"
+                                        android:text="@{im1998.checked ? `` : im19.getText().toString()}"
                                         app:maxValue="9"
                                         app:minValue="1"
                                         app:type="range" />
@@ -3062,7 +3062,7 @@
                                         android:hint="#"
                                         android:inputType="number"
                                         android:maxLength="1"
-                                        android:text="@{im2298.checked ? `` : im2298.getText().toString()}"
+                                        android:text="@{im2298.checked ? `` : im22.getText().toString()}"
                                         app:maxValue="9"
                                         app:minValue="1"
                                         app:type="range" />
@@ -3703,7 +3703,7 @@
                                     android:hint="#"
                                     android:inputType="number"
                                     android:maxLength="1"
-                                    android:text="@{im2798.checked ? `` : im2798.getText().toString()}"
+                                    android:text="@{im2798.checked ? `` : im27.getText().toString()}"
                                     app:maxValue="9"
                                     app:minValue="1"
                                     app:type="range" />
