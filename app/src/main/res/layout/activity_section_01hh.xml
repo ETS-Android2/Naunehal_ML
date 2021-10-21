@@ -27,9 +27,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             android:elevation="4dp"
-            app:titleTextAppearance="@style/topBarStyle"
-
-            />
+            app:titleTextAppearance="@style/topBarStyle" />
 
 
         <ScrollView
@@ -54,11 +52,6 @@
                         android:id="@+id/fldGrpCVhh05"
                         style="@style/cardView">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -72,18 +65,17 @@
                                     android:text="@string/Q_hh05" />
 
                                 <TextView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="@dimen/_70sdp"
                                     android:layout_height="match_parent"
+                                    android:gravity="center"
                                     android:text="@string/hh05" />
 
+                                <Spinner
+                                    android:id="@+id/hh05"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
                             </LinearLayout>
-
-                            <Spinner
-                                android:id="@+id/hh05"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
-
-                        </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
@@ -92,11 +84,6 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fldGrpCVhh06"
                         style="@style/cardView">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -111,18 +98,17 @@
                                     android:text="@string/Q_hh06" />
 
                                 <TextView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="@dimen/_70sdp"
                                     android:layout_height="match_parent"
+                                    android:gravity="center"
                                     android:text="@string/hh06" />
 
+                                <Spinner
+                                    android:id="@+id/hh06"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
                             </LinearLayout>
-
-                            <Spinner
-                                android:id="@+id/hh06"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content" />
-
-                        </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
@@ -131,11 +117,6 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fldGrpCVhh08"
                         style="@style/cardView">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -150,22 +131,21 @@
                                     android:text="@string/Q_hh08" />
 
                                 <TextView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="@dimen/_70sdp"
                                     android:layout_height="match_parent"
+                                    android:gravity="center"
                                     android:text="@string/hh08" />
 
+                                <com.edittextpicker.aliazaz.EditTextPicker
+                                    android:id="@+id/hh08"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:hint="######"
+                                    android:inputType="number"
+                                    app:mask="######" />
+
                             </LinearLayout>
-
-                            <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/hh08"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:hint="######"
-                                android:inputType="number"
-                                app:mask="######" />
-
-                        </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
@@ -174,11 +154,6 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/fldGrpCVhh09"
                         style="@style/cardView">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -193,22 +168,21 @@
                                     android:text="@string/Q_hh09" />
 
                                 <TextView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="@dimen/_70sdp"
                                     android:layout_height="match_parent"
+                                    android:gravity="center"
                                     android:text="@string/hh09" />
 
+                                <com.edittextpicker.aliazaz.EditTextPicker
+                                    android:id="@+id/hh09"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:hint="#-####-###"
+                                    android:inputType="textCapCharacters"
+                                    android:maxLength="10" />
+
                             </LinearLayout>
-
-                            <com.edittextpicker.aliazaz.EditTextPicker
-                                android:id="@+id/hh09"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:gravity="center"
-                                android:hint="#-####-###"
-                                android:inputType="textCapCharacters"
-                                android:maxLength="10" />
-
-                        </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
