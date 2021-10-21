@@ -182,10 +182,8 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
                 : bi.im0803.isChecked() ? "98"
                 : "-1");
 
-
-        //Its IM22A saved as IM08A @instructedByChaudarySahab
-        MainApp.immunization.setIm08a(bi.im08a1.isChecked() ? "1"
-                : bi.im08a2.isChecked() ? "2"
+        MainApp.immunization.setIm08a(bi.im22aa.isChecked() ? "1"
+                : bi.im22ab.isChecked() ? "2"
                 : bi.im08a3.isChecked() ? "98"
                 : "-1");
 

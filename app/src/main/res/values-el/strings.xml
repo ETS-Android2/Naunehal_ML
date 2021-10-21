@@ -389,11 +389,9 @@
     <string name="im0801"> Yes </string>
     <string name="im0802"> No </string>
     <string name="im0803"> Dont Know </string>
-    <string name="im08a"> Did (name) receive polio drops during the last campaign </string>
-    <string name="im08a1"> Yes </string>
-    <string name="im08a2"> No </string>
-    <string name="im08a3"> Dont know </string>
-    <string name="im08b"> How many times has (name) polio drops been given during the national polio campaigns ? </string>
+
+    <string name="Q_im2203"> im2203 </string>
+    <string name="im2203"> How many times has (name) polio drops been given during the national polio campaigns ? </string>
     <string name="im09">. Has (name) ever received a BCG vaccination against tuberculosis – that is, an injection in the arm or shoulder that usually causes a scar?</string>
     <string name="im0901">Yes </string>
     <string name="im0902">No  </string>
@@ -408,14 +406,13 @@
     <string name="im1103">Dont know</string>
     <string name="im12">How many times were the polio drops received at Govt or Private Health Facility or from Govt Outreach services?  Number of times</string>
     <string name="im1201">Number of times</string>
-    <string name="im12a">How many times was Polio vaccine received during a large campaign? </string>
-    <string name="im12a1">Number of times</string>
     <string name="im1298">Don\'t know</string>
-    <string name="im12a98">Don\'t Know</string>
-    <string name="im13">The last time (name) received the polio drops, did (he/she) also get an injection to protect against polio?   Probe to ensure that both were given, drops and injection</string>
-    <string name="im1301">Yes </string>
-    <string name="im1302">No  </string>
-    <string name="im1303">Dont know</string>
+
+    <string name="Q_im2204"> im2204 </string>
+    <string name="im2204">The last time (name) received the polio drops, did (he/she) also get an injection to protect against polio?   Probe to ensure that both were given, drops and injection</string>
+    <string name="im2204a">Yes </string>
+    <string name="im2204b">No  </string>
+    <string name="im220498">Dont know</string>
     <string name="im14">Has (name) ever received a Pentavalent vaccination – that is, an injection in the thigh to prevent (him/her) from getting tetanus, whooping cough, diphtheria, Hepatitis B disease, and Haemophilus influenza type B?   Probe by indicating that Pentavalent vaccination is sometimes given at the same time as the Polio drops</string>
     <string name="im1401">Yes </string>
     <string name="im1402">No </string>
@@ -446,25 +443,38 @@
     <string name="im2102">No  </string>
     <string name="im2103">Dont know</string>
     <string name="im22">How many times was a Measles Injection vaccine received? Number of times</string>
-    <string name="im2201">Number of times</string>
+    <string name="im22a">Number of times</string>
     <string name="im2298">Don\'t know</string>
-    <string name="Q_im22e"> im22e </string>
-    <string name="im22e"> Why did (name) not receive polio drops during the last campaign ?  Record all the reasons mentioned but do not prompt by asking specific. Encourage the mother to provide all reasons. </string>
-    <string name="im22e01"> Not at home when vaccinator came </string>
-    <string name="im22e02"> Time of immunization not convenient </string>
-    <string name="im22e03"> Family problem </string>
-    <string name="im22e04"> Child was ill </string>
-    <string name="im22e05"> Long wait </string>
-    <string name="im22e06"> Took child but no vaccine available </string>
-    <string name="im22e07"> Took child but no vaccinator </string>
-    <string name="im22e08"> COVID-19-related (fear of going out, sickness in family) </string>
-    <string name="im22e09"> No faith in immunization </string>
-    <string name="im22e10"> Fear of reaction </string>
-    <string name="im22e11"> Repeated campaigns </string>
-    <string name="im22e12"> Contents of vaccine not halal </string>
-    <string name="im22e13"> Vaccine leads to infertility </string>
-    <string name="im22e98"> Don\’t know </string>
-    <string name="im22e96"> Others </string>
+
+    <string name="Q_im2201"> im2201 </string>
+    <string name="im2201"> Did (name) receive polio drops during the last campaign </string>
+    <string name="im2201a"> Yes </string>
+    <string name="im2201b"> No </string>
+    <string name="im220198"> Dont know </string>
+
+    <string name="Q_im2202"> im2201 </string>
+    <string name="im2202">How many times was Polio vaccine received during a large campaign? </string>
+    <string name="im2202a">Number of times</string>
+    <string name="im220298">Don\'t Know</string>
+
+    <string name="Q_im2205"> im2205 </string>
+    <string name="im2205"> Why did (name) not receive polio drops during the last campaign ?  Record all the reasons mentioned but do not prompt by asking specific. Encourage the mother to provide all reasons. </string>
+    <string name="im2205a"> Not at home when vaccinator came </string>
+    <string name="im2205b"> Time of immunization not convenient </string>
+    <string name="im2205c"> Family problem </string>
+    <string name="im2205d"> Child was ill </string>
+    <string name="im2205e"> Long wait </string>
+    <string name="im2205f"> Took child but no vaccine available </string>
+    <string name="im2205g"> Took child but no vaccinator </string>
+    <string name="im2205h"> COVID-19-related (fear of going out, sickness in family) </string>
+    <string name="im2205i"> No faith in immunization </string>
+    <string name="im2205j"> Fear of reaction </string>
+    <string name="im2205k"> Repeated campaigns </string>
+    <string name="im2205l"> Contents of vaccine not halal </string>
+    <string name="im2205m"> Vaccine leads to infertility </string>
+    <string name="im220598"> Don\’t know </string>
+    <string name="im220596"> Others </string>
+
     <string name="im23"> Where from (name) is usually vaccinated ?   If the child is vaccinated from multiple sources, mention the usual source with higher frequency of vaccine doses.</string>
     <string name="im2301"> Govt. Health facility </string>
     <string name="im2302"> Private Health Facility </string>
@@ -1585,14 +1595,10 @@
     <string name='Q_im04'>im04</string>
     <string name='Q_im07'>im07</string>
     <string name='Q_im08'>im08</string>
-    <string name='Q_im08a'>im22a</string>
-    <string name='Q_im08b'>im22c</string>
     <string name='Q_im09'>im09</string>
     <string name='Q_im10'>im10</string>
     <string name='Q_im11'>im11</string>
     <string name='Q_im12'>im12</string>
-    <string name='Q_im12a'>im22b</string>
-    <string name='Q_im13'>im22d</string>
     <string name='Q_im14'>im14</string>
     <string name='Q_im15'>im15</string>
     <string name='Q_im16'>im16</string>
@@ -1602,6 +1608,7 @@
     <string name='Q_im20'>im20</string>
     <string name='Q_im21'>im21</string>
     <string name='Q_im22'>im22</string>
+
     <string name='Q_im23'>im23</string>
     <string name='Q_im23a'>im23a</string>
     <string name='Q_im23b'>im23b</string>

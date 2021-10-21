@@ -412,11 +412,7 @@
     <string name="im0801">ہاں</string>
     <string name="im0802"> نہیں</string>
     <string name="im0803">معلوم نہیں</string>
-    <string name="im08a"> کیا بچے کو کبھی قومی پولیو مہم کے دوران پولیو کے قطرے پلوائے گئے ہیں ؟ </string>
-    <string name="im08a1"> ہاں </string>
-    <string name="im08a2"> نہیں </string>
-    <string name="im08a3"> معلوم نہیں </string>
-    <string name="im08b"> کیا بچے کو گذشتہ قومی پولیو مہم کے دوران پولیو کے قطرے پلائے گئے تھے ؟ </string>
+
     <string name="im09"> ۔(BCG) کیا بچےکوکبھی ٹی بی(تپ دق) کی بیماری سے بچاؤکے لئے بی سی جی کی ویکسین لگی ہے؟ یہ ایک انجکشن ہےجوعام طور پر بازو یا کندھے میں لگایا جاتا ہے جس کی وجہ سے بازو یا کندھے پر نشان پڑ جاتا ہے </string>
     <string name="im0901">ہاں</string>
     <string name="im0902">نہیں</string>
@@ -429,16 +425,11 @@
     <string name="im1101"> ہاں </string>
     <string name="im1102"> نہیں </string>
     <string name="im1103"> معلوم نہیں </string>
+
     <string name="im12"> سرکاری / پرائیویٹ مرکز صحت یا سرکاری آؤٹ ریچ سروس سے پولیو کے قطرے کتنی بار پلائے گئے تھے ؟ </string>
-    <string name="im1201"> تعداد</string>
-    <string name="im12a"> قومی مہم کے دوران بچے کو پولیو کے قطرے کتنی بار پلائے گئے تھے ؟ </string>
-    <string name="im12a1"> تعداد </string>
+    <string name="im1201"> تعداد </string>
     <string name="im1298"> معلوم نہیں </string>
-    <string name="im12a98"> معلوم نہیں </string>
-    <string name="im13"> جب آخری بار ( بچے / بچی ) کو پولیو کے قطرے پلائے گئے تھے تو کیا اس وقت بچے کو پولیو سے بچائو کا ٹیکہ IPV بھی لگوایا گیا تھا ؟ </string>
-    <string name="im1301"> ہاں </string>
-    <string name="im1302"> نہیں </string>
-    <string name="im1303"> معلوم نہیں </string>
+
     <string name="im14"> کیا ( نام ) کو کبھی پینٹا ویلینٹ PENTAVALENT ویکسین لگی ہے ؟ </string>
     <string name="im1401"> ہاں </string>
     <string name="im1402"> نہیں </string>
@@ -469,25 +460,47 @@
     <string name="im2102">نہیں</string>
     <string name="im2103">معلوم نہیں</string>
     <string name="im22"> خسرہ کا ٹیکہ کتنی بار لگا ہے ؟ </string>
-    <string name="im2201"> تعداد </string>
+    <string name="im22a"> تعداد </string>
     <string name="im2298"> معلوم نہیں </string>
-    <string name="Q_im22e"> im22e </string>
-    <string name="im22e"> گزشتہ پولیو مہم کے دوران ( نام ) کو پولیو کے قطرے  نہ پلوانے کی کیا وجوہات تھیں برائے مہربانی وضاحت کریں ؟ </string>
-    <string name="im22e01"> جب پولیو ورکر گھر پر آیا تو گھر پر کوئی موجود نہیں تھا </string>
-    <string name="im22e02"> تیکاجات کا وقت مناسب نہں ھوتا </string>
-    <string name="im22e03"> فیملی کے مسلٰے ہں </string>
-    <string name="im22e04"> بچہ بیمار تھا </string>
-    <string name="im22e05"> تویل انتذار کی وجہ سے </string>
-    <string name="im22e06"> بچے کو لیکر گیے تھے ویکسین موجود نہں تھی </string>
-    <string name="im22e07"> بچے کو لیکر گیے تھے ویکسینیٹر موجود نہں تھا </string>
-    <string name="im22e08"> کویڈ 19 کے خوف کی وجہ سے </string>
-    <string name="im22e09"> حفاظتی ٹیکاجات پر بھروسا نہں ہے </string>
-    <string name="im22e10"> مظر اثڑات کے خوف کی وجہ سے </string>
-    <string name="im22e11"> بار بار مہم کی وجھہ سے </string>
-    <string name="im22e12"> ویکسین کامواد حلال نہیں ہے ـ </string>
-    <string name="im22e13"> ویکسین بانجھ پن کا باعث بنتی ہے </string>
-    <string name="im22e98"> معلوم نہیں </string>
-    <string name="im22e96"> دیگر </string>
+
+    <string name="Q_im2201"> im2201 </string>
+    <string name="im2201"> کیا بچے کو کبھی قومی پولیو مہم کے دوران پولیو کے قطرے پلوائے گئے ہیں ؟ </string>
+    <string name="im2201a"> ہاں </string>
+    <string name="im2201b"> نہیں </string>
+    <string name="im220198"> معلوم نہیں </string>
+
+    <string name="Q_im2202"> im2202 </string>
+    <string name="im2202"> قومی مہم کے دوران بچے کو پولیو کے قطرے کتنی بار پلائے گئے تھے ؟ </string>
+    <string name="im2202a"> تعداد </string>
+    <string name="im220298"> معلوم نہیں </string>
+
+    <string name="Q_im2203"> im2203 </string>
+    <string name="im2203"> کیا بچے کو گذشتہ قومی پولیو مہم کے دوران پولیو کے قطرے پلائے گئے تھے ؟ </string>
+
+    <string name="Q_im2204"> im2204 </string>
+    <string name="im2204"> جب آخری بار ( بچے / بچی ) کو پولیو کے قطرے پلائے گئے تھے تو کیا اس وقت بچے کو پولیو سے بچائو کا ٹیکہ IPV بھی لگوایا گیا تھا ؟ </string>
+    <string name="im2204a"> ہاں </string>
+    <string name="im2204b"> نہیں </string>
+    <string name="im220498"> معلوم نہیں </string>
+
+    <string name="Q_im2205"> im2205 </string>
+    <string name="im2205"> گزشتہ پولیو مہم کے دوران ( نام ) کو پولیو کے قطرے  نہ پلوانے کی کیا وجوہات تھیں برائے مہربانی وضاحت کریں ؟ </string>
+    <string name="im2205a"> جب پولیو ورکر گھر پر آیا تو گھر پر کوئی موجود نہیں تھا </string>
+    <string name="im2205b"> تیکاجات کا وقت مناسب نہں ھوتا </string>
+    <string name="im2205c"> فیملی کے مسلٰے ہں </string>
+    <string name="im2205d"> بچہ بیمار تھا </string>
+    <string name="im2205e"> تویل انتذار کی وجہ سے </string>
+    <string name="im2205f"> بچے کو لیکر گیے تھے ویکسین موجود نہں تھی </string>
+    <string name="im2205g"> بچے کو لیکر گیے تھے ویکسینیٹر موجود نہں تھا </string>
+    <string name="im2205h"> کویڈ 19 کے خوف کی وجہ سے </string>
+    <string name="im2205i"> حفاظتی ٹیکاجات پر بھروسا نہں ہے </string>
+    <string name="im2205j"> مظر اثڑات کے خوف کی وجہ سے </string>
+    <string name="im2205k"> بار بار مہم کی وجھہ سے </string>
+    <string name="im2205l"> ویکسین کامواد حلال نہیں ہے ـ </string>
+    <string name="im2205m"> ویکسین بانجھ پن کا باعث بنتی ہے </string>
+    <string name="im220598"> معلوم نہیں </string>
+    <string name="im220596"> دیگر </string>
+
     <string name="im23"> بچے کو عام طور پر حفاظتی ٹیکے کہاں سے لگواتے ہیں؟ اگر بچے کو حفاظتی ٹیکے مختلف ذرائع سے لگوائے گئے ہیں،تومعمول کے مطابق سب سے زیادہ ویکسین جس جگہ سے لگوائی گئیں ہیں اس کو بیان کریں۔ </string>
     <string name="im2301"> سرکاری مرکز صحت </string>
     <string name="im2302"> پرائیوٹ مرکز صحت </string>
@@ -1624,14 +1637,10 @@
     <string name='Q_im04'>im04</string>
     <string name='Q_im07'>im07</string>
     <string name='Q_im08'>im08</string>
-    <string name='Q_im08a'>im22a</string>
-    <string name='Q_im08b'>im22c</string>
     <string name='Q_im09'>im09</string>
     <string name='Q_im10'>im10</string>
     <string name='Q_im11'>im11</string>
     <string name='Q_im12'>im12</string>
-    <string name='Q_im12a'>im22b</string>
-    <string name='Q_im13'>im22d</string>
     <string name='Q_im14'>im14</string>
     <string name='Q_im15'>im15</string>
     <string name='Q_im16'>im16</string>
@@ -1641,6 +1650,7 @@
     <string name='Q_im20'>im20</string>
     <string name='Q_im21'>im21</string>
     <string name='Q_im22'>im22</string>
+
     <string name='Q_im23'>im23</string>
     <string name='Q_im23a'>im23a</string>
     <string name='Q_im23b'>im23b</string>
