@@ -349,6 +349,7 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
         });
 
         bi.im02.setOnCheckedChangeListener((radioGroup, i) -> {
+            Clear.clearAllFields(bi.fldGrpCVim08);
             if (i == bi.im0201.getId()) {
                 bi.fldGrpDOBCheck02.setVisibility(View.GONE);
                 Clear.clearAllFields(bi.fldGrpDOBCheck02);

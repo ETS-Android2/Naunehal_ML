@@ -2156,7 +2156,9 @@
 
 
                     <!-- im08  Radio   -->
-                    <androidx.cardview.widget.CardView style="@style/cardView">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fldGrpCVim08"
+                        style="@style/cardView">
 
                         <LinearLayout
                             android:layout_width="match_parent"
