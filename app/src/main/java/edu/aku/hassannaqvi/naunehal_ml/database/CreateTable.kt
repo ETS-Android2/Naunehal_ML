@@ -7,7 +7,7 @@ import edu.aku.hassannaqvi.naunehal_ml.contracts.IMContract
 import edu.aku.hassannaqvi.naunehal_ml.models.*
 
 object CreateTable {
-    const val PROJECT_NAME = "NAUNEHAL2021"
+    const val PROJECT_NAME = "NAUNEHAL ML 2021"
     const val DATABASE_NAME = "$PROJECT_NAME.db"
     const val DATABASE_COPY = "${PROJECT_NAME}_copy.db"
     const val DATABASE_VERSION = 1
