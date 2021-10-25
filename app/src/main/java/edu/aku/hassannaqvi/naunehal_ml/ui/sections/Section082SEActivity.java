@@ -79,14 +79,20 @@ public class Section082SEActivity extends AppCompatActivity implements EndSectio
 
         bi.se45.setOnCheckedChangeListener((radioGroup, i) -> {
             Clear.clearAllFields(bi.fldGrpCVse46);
+            Clear.clearAllFields(bi.fldGrpCVse47);
             bi.fldGrpCVse46.setVisibility(View.GONE);
+            bi.fldGrpCVse47.setVisibility(View.GONE);
             if (i == bi.se4501.getId()) bi.fldGrpCVse46.setVisibility(View.VISIBLE);
+            else bi.fldGrpCVse47.setVisibility(View.VISIBLE);
         });
 
         bi.se48.setOnCheckedChangeListener((radioGroup, i) -> {
             Clear.clearAllFields(bi.fldGrpCVse49);
+            Clear.clearAllFields(bi.fldGrpCVse50);
             bi.fldGrpCVse49.setVisibility(View.GONE);
+            bi.fldGrpCVse50.setVisibility(View.GONE);
             if (i == bi.se4801.getId()) bi.fldGrpCVse49.setVisibility(View.VISIBLE);
+            else bi.fldGrpCVse50.setVisibility(View.VISIBLE);
         });
 
         bi.se4998.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.se49check, !b));
