@@ -3,6 +3,7 @@ package edu.aku.hassannaqvi.naunehal_ml.ui.sections;
 import static edu.aku.hassannaqvi.naunehal_ml.core.MainApp.form;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ import edu.aku.hassannaqvi.naunehal_ml.utils.EndSectionActivity;
 
 public class Section082SEActivity extends AppCompatActivity implements EndSectionActivity {
 
+    private static final String TAG = "Section082SEActivity";
     ActivitySection082seBinding bi;
 
     @Override
@@ -395,12 +397,13 @@ public class Section082SEActivity extends AppCompatActivity implements EndSectio
         }
 
         if (bi.se2301.isChecked()) {
-            if (Integer.valueOf(bi.se25.getText().toString()) > Integer.valueOf(bi.se24.getText().toString())) {
+            if (Integer.parseInt(bi.se25.getText().toString()) > Integer.parseInt(bi.se24.getText().toString())) {
                 return Validator.emptyCustomTextBox(this, bi.se25, "Smart phones cannot be more than total mobile phones");
             }
-
-            if (Integer.valueOf(bi.se26.getText().toString()) > Integer.valueOf(bi.se25.getText().toString())) {
-                return Validator.emptyCustomTextBox(this, bi.se26, "Android phones cannot be more than total smart phones");
+            if (!bi.se26.getText().toString().equals("")) {
+                if (Integer.parseInt(bi.se26.getText().toString()) > Integer.parseInt(bi.se25.getText().toString())) {
+                    return Validator.emptyCustomTextBox(this, bi.se26, "Android phones cannot be more than total smart phones");
+                }
             }
         }
         return true;
@@ -424,7 +427,7 @@ public class Section082SEActivity extends AppCompatActivity implements EndSectio
     public void se25OnTextChanged(CharSequence s, int start, int before, int count) {
         if (!bi.se25.isRangeTextValidate())
             return;
-
+        Log.d(TAG, "se25OnTextChanged: " + bi.se25.getText().toString());
         int se25 = Integer.parseInt(bi.se25.getText().toString());
 
         if (se25 == 0) {

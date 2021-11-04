@@ -28,9 +28,9 @@ class BLRandom {
         clusterCode = jsonObject.getString(TableRandom.COLUMN_CLUSTER_CODE)
         distCode = jsonObject.getString(TableRandom.COLUMN_DIST_CODE)
         structure = jsonObject.getString(TableRandom.COLUMN_STRUCTURE_NO)
-        structure = String.format("%04d", Integer.valueOf(structure), Locale.ENGLISH)
+        structure = String.format("%04d", Integer.parseInt(structure), Locale.ENGLISH)
         extension = jsonObject.getString(TableRandom.COLUMN_FAMILY_EXT_CODE)
-        extension = String.format("%03d", Integer.valueOf(extension), Locale.ENGLISH)
+        extension = String.format("%03d", Integer.parseInt(extension), Locale.ENGLISH)
         tabno = jsonObject.getString(TableRandom.COLUMN_TAB_NO)
         hh = "$tabno-$structure-$extension"
         randomDT = jsonObject.getString(TableRandom.COLUMN_RANDOMDT)
