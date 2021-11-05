@@ -30,6 +30,11 @@
                 android:title="Forms Report by Cluster"
                 android:titleCondensed="List of all forms by date"
                 app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/debugDB"
+                android:title="Show Debug Db Address"
+                android:titleCondensed="showDebugDbAddress"
+                app:showAsAction="collapseActionView" />
 
         </menu>
     </item>

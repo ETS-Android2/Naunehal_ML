@@ -2,6 +2,7 @@ package edu.aku.hassannaqvi.naunehal_ml.ui
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -16,6 +17,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.lifecycleScope
+import edu.aku.hassannaqvi.naunehal_ml.BuildConfig
 import edu.aku.hassannaqvi.naunehal_ml.CONSTANTS
 import edu.aku.hassannaqvi.naunehal_ml.R
 import edu.aku.hassannaqvi.naunehal_ml.base.repository.GeneralRepository
@@ -184,6 +186,18 @@ class MainActivity : AppCompatActivity() {
         setupSkips()
     }
 
+    fun showDebugDBAddressLogToast(context: Context?) {
+        if (BuildConfig.DEBUG) {
+            try {
+                val debugDB = Class.forName("com.amitshekhar.DebugDB")
+                val getAddressLog = debugDB.getMethod("getAddressLog")
+                val value = getAddressLog.invoke(null)
+                Toast.makeText(context, value as String, Toast.LENGTH_LONG).show()
+            } catch (ignore: Exception) {
+            }
+        }
+    }
+
     private fun setupSkips() {
         bi.districts.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -255,6 +269,9 @@ class MainActivity : AppCompatActivity() {
             R.id.action_database -> {
                 gotoActivity(AndroidDatabaseManager::class.java)
                 return true
+            }
+            R.id.debugDB -> {
+                showDebugDBAddressLogToast(applicationContext)
             }
         }
         return super.onOptionsItemSelected(item)
