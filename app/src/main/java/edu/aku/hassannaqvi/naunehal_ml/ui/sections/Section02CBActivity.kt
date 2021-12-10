@@ -336,15 +336,33 @@ class Section02CBActivity : AppCompatActivity() {
         }
 
         MainApp.childInformation.cb1096x = bi.cb1096x.text.toString()
-        MainApp.childInformation.cb11 =
-            if (bi.cb1101.isChecked) "1" else if (bi.cb1102.isChecked) "2" else "-1"
+        MainApp.childInformation.cb11 = when {
+            bi.cb1101.isChecked -> "1"
+            bi.cb1102.isChecked -> "2"
+            else -> "-1"
+        }
 
         MainApp.childInformation.cb12 = bi.cb12.text.toString()
 
         MainApp.childInformation.cb13 = bi.cb13.text.toString()
 
-        MainApp.childInformation.cb14 =
-            if (bi.cb1401.isChecked) "1" else if (bi.cb1402.isChecked) "2" else if (bi.cb1403.isChecked) "3" else if (bi.cb1404.isChecked) "4" else if (bi.cb1405.isChecked) "5" else if (bi.cb1406.isChecked) "6" else if (bi.cb1407.isChecked) "7" else if (bi.cb1408.isChecked) "8" else if (bi.cb1409.isChecked) "9" else if (bi.cb1410.isChecked) "10" else if (bi.cb1411.isChecked) "11" else if (bi.cb1412.isChecked) "12" else if (bi.cb1413.isChecked) "13" else if (bi.cb1496.isChecked) "96" else "-1"
+        MainApp.childInformation.cb14 = when {
+            bi.cb1401.isChecked -> "1"
+            bi.cb1402.isChecked -> "2"
+            bi.cb1403.isChecked -> "3"
+            bi.cb1404.isChecked -> "4"
+            bi.cb1405.isChecked -> "5"
+            bi.cb1406.isChecked -> "6"
+            bi.cb1407.isChecked -> "7"
+            bi.cb1408.isChecked -> "8"
+            bi.cb1409.isChecked -> "9"
+            bi.cb1410.isChecked -> "10"
+            bi.cb1411.isChecked -> "11"
+            bi.cb1412.isChecked -> "12"
+            bi.cb1413.isChecked -> "13"
+            bi.cb1496.isChecked -> "96"
+            else -> "-1"
+        }
 
         MainApp.childInformation.cb1496x = bi.cb1496x.text.toString()
         MainApp.childInformation.cb15 = bi.cb15.text.toString()
