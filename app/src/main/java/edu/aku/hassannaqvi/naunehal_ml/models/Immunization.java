@@ -19,6 +19,7 @@ public class Immunization extends BaseObservable {
 
     //Section IM
     private String im02 = StringUtils.EMPTY;
+    private String im0202x = StringUtils.EMPTY;
     private String im01 = StringUtils.EMPTY;
     private String im03 = StringUtils.EMPTY;
     private String im0396x = StringUtils.EMPTY;
@@ -389,6 +390,17 @@ public class Immunization extends BaseObservable {
     public void setIm02(String im02) {
         this.im02 = im02;
         notifyPropertyChanged(BR.im02);
+    }
+
+
+    @Bindable
+    public String getIm0202x() {
+        return im0202x;
+    }
+
+    public void setIm0202x(String im0202x) {
+        this.im0202x = im0202x;
+        notifyPropertyChanged(BR.im0202x);
     }
 
     @Bindable
@@ -1550,6 +1562,7 @@ public class Immunization extends BaseObservable {
 
         try {
             json.put("im02", im02)
+                    .put("im0202x", im0202x)
                     .put("im01", im01)
                     .put("im03", im03)
                     .put("im0396x", im0396x)
@@ -1719,6 +1732,7 @@ public class Immunization extends BaseObservable {
                 json = new JSONObject(string);
 
                 this.im02 = json.getString("im02");
+                this.im0202x = json.getString("im0202x");
                 this.im01 = json.getString("im01");
                 this.im03 = json.getString("im03");
                 this.im0396x = json.getString("im0396x");

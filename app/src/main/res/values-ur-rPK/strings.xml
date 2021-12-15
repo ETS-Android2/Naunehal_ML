@@ -320,8 +320,9 @@
     <string name="im0102"> نہیں</string>
     <string name="im02">اگر ہاں تو برائے مہربانی کیا میں اسے دیکھ سکتا/ سکتی ہوں؟</string>
     <string name="im02info"> جواب دہندہ انٹرویو کی اجازت ملنے کے بعد کارڈ فراہم کر چکی/چکا ہو گا۔</string>
-    <string name="im0201">کارڈدیکھ لیا</string>
-    <string name="im0202">کارڈنہیں دیکھا</string>
+    <string name="im0201"> کارڈ دیکھ لیا </string>
+    <string name="im0202"> کارڈ نہیں دیکھا </string>
+    <string name="im0202x"> براہ کرم کارڈ نہ دیکھنے کی وجہ بتائیں </string>
     <string name="im03">اگر نہیں تو ، آپ کو کوئی ویکسینیشن کارڈ کیوں نہیں ملا؟</string>
     <string name="im0301">میرے خیال سے اتنا اہم نہیں </string>
     <string name="im0302">کبھی مرکز صحت میں نہیں گئے </string>

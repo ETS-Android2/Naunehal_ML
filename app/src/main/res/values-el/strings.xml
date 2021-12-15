@@ -296,8 +296,9 @@
     <string name="im0101">Yes</string>
     <string name="im0102">No</string>
     <string name="im02">If yes: may I see it please?  The respondent should already have brought the card when you got permission to begin the interview.</string>
-    <string name="im0201">Seen</string>
-    <string name="im0202">Not seen</string>
+    <string name="im0201"> Seen </string>
+    <string name="im0202"> Not seen </string>
+    <string name="im0202x"> Please explain reason for not seen card </string>
     <string name="im03">If not, why you didn’t receive any vaccination card?</string>
     <string name="im0301">Don’t think it’s important </string>
     <string name="im0302">Never visited a facility </string>
