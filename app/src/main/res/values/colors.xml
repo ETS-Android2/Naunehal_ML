@@ -26,4 +26,6 @@
     <color name="whiteOverlay">#7fffffff</color>
     <color name="redDark">#990000</color>
     <color name="lightPink">#EEE4C4BA</color>
+    <color name="black01">#262626</color>
+    <color name="black02">#434343</color>
 </resources>
