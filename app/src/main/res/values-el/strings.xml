@@ -329,7 +329,7 @@
     <string name="im0503dd">Day</string>
     <string name="im0503mm">Month</string>
     <string name="im0503yy">Year</string>
-    <string name="sixWeekCopy"> If all sixth week vaccines are on same date please check this </string>
+    <string name="week6"> If all sixth week vaccines are on same date please check this </string>
     <string name="im0504">Pentavalent1 (DPTHibHepB) (Penta1)   </string>
     <string name="im0504dd">Day</string>
     <string name="im0504mm">Month</string>
@@ -346,7 +346,7 @@
     <string name="im0507dd">Day</string>
     <string name="im0507mm">Month</string>
     <string name="im0507yy">Year</string>
-    <string name="tenWeekCopy"> If all tenth week vaccines are on same date please check this </string>
+    <string name="week10"> If all tenth week vaccines are on same date please check this </string>
     <string name="im0508">Pentavalent2 (DPTHibHepB) (Penta 2)     </string>
     <string name="im0508dd">Day</string>
     <string name="im0508mm">Month</string>
@@ -363,6 +363,7 @@
     <string name="im0511dd">Day</string>
     <string name="im0511mm">Month</string>
     <string name="im0511yy">Year</string>
+    <string name="week14"> if all fourteenth week vaccines are on same date please check this </string>
     <string name="im0512">Pentavalent3 (DPTHibHepB) (Penta 3)  </string>
     <string name="im0512dd">Day</string>
     <string name="im0512mm">Month</string>

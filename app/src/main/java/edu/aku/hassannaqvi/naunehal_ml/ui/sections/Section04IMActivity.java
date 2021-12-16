@@ -523,8 +523,9 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
         bi.im3098.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im30check, !b));
 
         checkCopy(bi.im0501yy, bi.bcgCopy, new ViewGroup[]{bi.cVim0502});
-        checkCopy(bi.im0503yy, bi.sixWeekCopy, new ViewGroup[]{bi.cVim0504, bi.cVim0505, bi.cVim0506});
-        checkCopy(bi.im0507yy, bi.tenWeekCopy, new ViewGroup[]{bi.cVim0508, bi.cVim0509, bi.cVim0510});
+        checkCopy(bi.im0503yy, bi.week6, new ViewGroup[]{bi.cVim0504, bi.cVim0505, bi.cVim0506});
+        checkCopy(bi.im0507yy, bi.week10, new ViewGroup[]{bi.cVim0508, bi.cVim0509, bi.cVim0510});
+        checkCopy(bi.im0511yy, bi.week14, new ViewGroup[]{bi.cVim0512, bi.cVim0513, bi.cVim0514});
 
     }
 

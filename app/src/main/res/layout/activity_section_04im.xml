@@ -829,11 +829,11 @@
                                 </LinearLayout>
 
                                 <CheckBox
-                                    android:id="@+id/sixWeekCopy"
+                                    android:id="@+id/week6"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:tag="-1"
-                                    android:text="@string/sixWeekCopy"
+                                    android:text="@string/week6"
                                     android:visibility="gone" />
 
                             </LinearLayout>
@@ -900,7 +900,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -915,7 +915,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -929,7 +929,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1002,7 +1002,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1017,7 +1017,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1031,7 +1031,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1104,7 +1104,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1119,7 +1119,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1133,7 +1133,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
+                                        android:text="@{week6.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1240,11 +1240,11 @@
                                 </LinearLayout>
 
                                 <CheckBox
-                                    android:id="@+id/tenWeekCopy"
+                                    android:id="@+id/week10"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:tag="-1"
-                                    android:text="@string/tenWeekCopy"
+                                    android:text="@string/week10"
                                     android:visibility="gone" />
 
                             </LinearLayout>
@@ -1311,7 +1311,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1326,7 +1326,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1340,7 +1340,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1413,7 +1413,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1428,7 +1428,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1442,7 +1442,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1515,9 +1515,8 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
-
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -1531,9 +1530,8 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
-
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -1546,9 +1544,8 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
-                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
+                                        android:text="@{week10.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
-
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
@@ -1619,7 +1616,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -1634,7 +1630,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -1648,7 +1643,6 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
@@ -1656,13 +1650,23 @@
 
                                 </LinearLayout>
 
+                                <CheckBox
+                                    android:id="@+id/week14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:tag="-1"
+                                    android:text="@string/week14"
+                                    android:visibility="gone" />
+
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
 
                         <!-- im0512  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0512"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1719,7 +1723,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511dd.getText().toString() : ``}"
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -1734,7 +1738,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511mm.getText().toString() : ``}"
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -1748,7 +1752,7 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
+                                        android:text="@{week14.checked ? im0511yy.getText().toString() : ``}"
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
@@ -1762,7 +1766,9 @@
 
 
                         <!-- im0513  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0513"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1819,7 +1825,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511dd.getText().toString() : ``}"
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -1834,7 +1840,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511mm.getText().toString() : ``}"
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -1848,7 +1854,7 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
+                                        android:text="@{week14.checked ? im0511yy.getText().toString() : ``}"
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
@@ -1862,7 +1868,9 @@
 
 
                         <!-- im0514  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0514"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1919,7 +1927,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511dd.getText().toString() : ``}"
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -1934,7 +1942,7 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
+                                        android:text="@{week14.checked ? im0511mm.getText().toString() : ``}"
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -1948,7 +1956,7 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
+                                        android:text="@{week14.checked ? im0511yy.getText().toString() : ``}"
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
