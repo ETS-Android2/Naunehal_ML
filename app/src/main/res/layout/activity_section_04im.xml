@@ -2027,7 +2027,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -2042,7 +2041,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -2056,7 +2054,6 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
@@ -2127,7 +2124,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:defaultValue="97"
                                         app:maxValue="31"
                                         app:minValue="1"
@@ -2142,7 +2138,6 @@
                                         android:hint="##"
                                         android:inputType="number"
                                         android:maxLength="2"
-
                                         app:maxValue="12"
                                         app:minValue="1"
                                         app:type="range" />
@@ -2156,7 +2151,6 @@
                                         android:hint="20##"
                                         android:inputType="number"
                                         android:maxLength="4"
-
                                         app:mask="20##"
                                         app:maxValue="2021"
                                         app:minValue="2016"
