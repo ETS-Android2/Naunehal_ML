@@ -659,10 +659,10 @@
     <string name="pd1607">TBA</string>
     <string name="pd1696">Others Please Specify</string>
     <string name="pd17">How long after delivery did the first of these checks happen? 	If less than one day, record hours. 	If less than one week, record days. OTHERWISE, RECORD WEEKS.</string>
-    <string name="pd1701">Hours</string>
-    <string name="pd1702">Days</string>
-    <string name="pd1703">Weeks</string>
-    <string name="pd1798">Don’t know/ don’t remember </string>
+    <string name="pd1701"> Hours </string>
+    <string name="pd1702"> Days </string>
+    <string name="pd1703"> Weeks </string>
+    <string name="pd1798"> Don’t Know / Don’t Remember </string>
     <string name="pd18"> How many times such check happen ? </string>
     <string name="pd18a"> Number of Times </string>
     <string name="pd19">Did anyone check on (name of child) health?</string>
