@@ -329,6 +329,7 @@
     <string name="im0503dd">Day</string>
     <string name="im0503mm">Month</string>
     <string name="im0503yy">Year</string>
+    <string name="sixWeekCopy"> If all sixth week vaccines are on same date please check this </string>
     <string name="im0504">Pentavalent1 (DPTHibHepB) (Penta1)   </string>
     <string name="im0504dd">Day</string>
     <string name="im0504mm">Month</string>
@@ -345,6 +346,7 @@
     <string name="im0507dd">Day</string>
     <string name="im0507mm">Month</string>
     <string name="im0507yy">Year</string>
+    <string name="tenWeekCopy"> If all tenth week vaccines are on same date please check this </string>
     <string name="im0508">Pentavalent2 (DPTHibHepB) (Penta 2)     </string>
     <string name="im0508dd">Day</string>
     <string name="im0508mm">Month</string>
@@ -405,6 +407,7 @@
     <string name="im12">How many times were the polio drops received at Govt or Private Health Facility or from Govt Outreach services?  Number of times</string>
     <string name="im12a">Number of times</string>
     <string name="im1298">Don\'t know</string>
+    <string name="bcgCopy"> If BCG and OPV0 are on same date please check this </string>
 
     <string name="im14">Has (name) ever received a Pentavalent vaccination – that is, an injection in the thigh to prevent (him/her) from getting tetanus, whooping cough, diphtheria, Hepatitis B disease, and Haemophilus influenza type B?   Probe by indicating that Pentavalent vaccination is sometimes given at the same time as the Polio drops</string>
     <string name="im1401">Yes </string>

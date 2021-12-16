@@ -353,6 +353,7 @@
     <string name="im0503dd">دن</string>
     <string name="im0503mm">مہینہ</string>
     <string name="im0503yy">سال</string>
+    <string name="sixWeekCopy"> اگر چھٹے ہفتے کی تمام ویکسین ایک ہی تاریخ پر ہیں تو براہ کرم اسے چیک کریں۔ </string>
     <string name="im0504"> پینٹا 1 ویکسین PENTA1 (چھٹے ہفتہ پر) </string>
     <string name="im0504dd">دن</string>
     <string name="im0504mm">مہینہ</string>
@@ -369,6 +370,7 @@
     <string name="im0507dd">دن</string>
     <string name="im0507mm">مہینہ</string>
     <string name="im0507yy">سال</string>
+    <string name="tenWeekCopy"> اگر دسویں ہفتے کی تمام ویکسین ایک ہی تاریخ پر ہیں تو براہ کرم اسے چیک کریں۔ </string>
     <string name="im0508"> پینٹا ٹوویکسین PENTA 2 (دس ہفتوں پر)</string>
     <string name="im0508dd">دن</string>
     <string name="im0508mm">مہینہ</string>
@@ -430,6 +432,7 @@
     <string name="im12"> سرکاری / پرائیویٹ مرکز صحت یا سرکاری آؤٹ ریچ سروس سے پولیو کے قطرے کتنی بار پلائے گئے تھے ؟ </string>
     <string name="im12a"> تعداد </string>
     <string name="im1298"> معلوم نہیں </string>
+    <string name="bcgCopy"> اگر BCG اور OPV0 ایک ہی تاریخ پر ہیں تو براہ کرم اسے چیک کریں۔ </string>
 
     <string name="im14"> کیا ( نام ) کو کبھی پینٹا ویلینٹ PENTAVALENT ویکسین لگی ہے ؟ </string>
     <string name="im1401"> ہاں </string>

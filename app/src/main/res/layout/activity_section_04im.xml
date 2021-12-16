@@ -339,7 +339,6 @@
                                     android:layout_weight="1"
                                     android:text="@string/im04dd" />
 
-
                                 <TextView
                                     style="@style/sub_labels"
                                     android:layout_width="0dp"
@@ -347,14 +346,12 @@
                                     android:layout_weight="1"
                                     android:text="@string/im04mm" />
 
-
                                 <TextView
                                     style="@style/sub_labels"
                                     android:layout_width="0dp"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:text="@string/im04yy" />
-
 
                             </LinearLayout>
 
@@ -377,7 +374,6 @@
                                     app:minValue="1"
                                     app:type="range" />
 
-
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/im04mm"
                                     android:layout_width="0dp"
@@ -390,7 +386,6 @@
                                     app:maxValue="12"
                                     app:minValue="1"
                                     app:type="range" />
-
 
                                 <com.edittextpicker.aliazaz.EditTextPicker
                                     android:id="@+id/im04yy"
@@ -626,13 +621,23 @@
 
                                 </LinearLayout>
 
+                                <CheckBox
+                                    android:id="@+id/bcgCopy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:tag="-1"
+                                    android:text="@string/bcgCopy"
+                                    android:visibility="gone" />
+
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
 
                         <!-- im0502  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0502"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -688,6 +693,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{bcgCopy.checked ? im0501dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -702,6 +708,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{bcgCopy.checked ? im0501mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -715,6 +722,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{bcgCopy.checked ? im0501yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -820,13 +828,23 @@
 
                                 </LinearLayout>
 
+                                <CheckBox
+                                    android:id="@+id/sixWeekCopy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:tag="-1"
+                                    android:text="@string/sixWeekCopy"
+                                    android:visibility="gone" />
+
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
 
                         <!-- im0504  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0504"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -882,6 +900,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -896,6 +915,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -909,6 +929,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -923,7 +944,9 @@
 
 
                         <!-- im0505  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0505"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -979,6 +1002,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -993,6 +1017,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1006,6 +1031,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1020,7 +1046,9 @@
 
 
                         <!-- im0506  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0506"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1076,6 +1104,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1090,6 +1119,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1103,6 +1133,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{sixWeekCopy.checked ? im0503yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1208,13 +1239,23 @@
 
                                 </LinearLayout>
 
+                                <CheckBox
+                                    android:id="@+id/tenWeekCopy"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:tag="-1"
+                                    android:text="@string/tenWeekCopy"
+                                    android:visibility="gone" />
+
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 
 
                         <!-- im0508  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0508"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1270,6 +1311,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1284,6 +1326,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1297,6 +1340,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1311,7 +1355,9 @@
 
 
                         <!-- im0509  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0509"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1367,6 +1413,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:defaultValue="97"
                                         app:maxValue="31"
@@ -1381,6 +1428,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
                                         app:maxValue="12"
                                         app:minValue="1"
@@ -1394,6 +1442,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
                                         app:mask="20##"
                                         app:maxValue="2021"
@@ -1408,7 +1457,9 @@
 
 
                         <!-- im0510  Title   -->
-                        <androidx.cardview.widget.CardView style="@style/cardView">
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cVim0510"
+                            style="@style/cardView">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1464,6 +1515,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507dd.getText().toString() : ``}"
                                         android:maxLength="2"
 
                                         app:defaultValue="97"
@@ -1479,6 +1531,7 @@
                                         android:gravity="center"
                                         android:hint="##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507mm.getText().toString() : ``}"
                                         android:maxLength="2"
 
                                         app:maxValue="12"
@@ -1493,6 +1546,7 @@
                                         android:gravity="center"
                                         android:hint="20##"
                                         android:inputType="number"
+                                        android:text="@{tenWeekCopy.checked ? im0507yy.getText().toString() : ``}"
                                         android:maxLength="4"
 
                                         app:mask="20##"

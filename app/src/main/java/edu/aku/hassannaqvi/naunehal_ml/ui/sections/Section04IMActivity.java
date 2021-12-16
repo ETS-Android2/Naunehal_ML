@@ -10,6 +10,8 @@ import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -520,6 +522,10 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
 
         bi.im3098.setOnCheckedChangeListener((compoundButton, b) -> Clear.clearAllFields(bi.im30check, !b));
 
+        checkCopy(bi.im0501yy, bi.bcgCopy, new ViewGroup[]{bi.cVim0502});
+        checkCopy(bi.im0503yy, bi.sixWeekCopy, new ViewGroup[]{bi.cVim0504, bi.cVim0505, bi.cVim0506});
+        checkCopy(bi.im0507yy, bi.tenWeekCopy, new ViewGroup[]{bi.cVim0508, bi.cVim0509, bi.cVim0510});
+
     }
 
 
@@ -933,5 +939,32 @@ public class Section04IMActivity extends AppCompatActivity implements EndSection
         if (updateDB()) {
             finish();
         }
+    }
+
+
+    private void checkCopy(EditTextPicker edx, CheckBox cb, ViewGroup[] vg) {
+
+        edx.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (TextUtils.isEmpty(s)) return;
+                if (edx.getText().toString().trim().length() == 4) cb.setVisibility(View.VISIBLE);
+                else {
+                    cb.setChecked(false);
+                    cb.setVisibility(View.GONE);
+                    for (ViewGroup v : vg) Clear.clearAllFields(v);
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
     }
 }
