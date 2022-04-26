@@ -139,7 +139,6 @@ public class Child extends BaseObservable {
 
     public void setId(String id) {
         this.id = id;
-
     }
 
 

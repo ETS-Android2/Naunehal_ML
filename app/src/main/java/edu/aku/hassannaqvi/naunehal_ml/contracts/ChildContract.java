@@ -24,6 +24,7 @@ public class ChildContract {
         public static final String COLUMN_HHNO = "hhno";
         public static final String COLUMN_MOTHER_NAME = "mothername";
         public static final String COLUMN_CHILD_NAME = "childname";
+        public static final String COLUMN_AGE_MONTHS = "ageInMonths";
         public static final String COLUMN_SERIAL = "serial";
         public static final String COLUMN_SCS = "scs";
 
